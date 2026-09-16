@@ -2,30 +2,36 @@ FIFA Men's World Cup 2026 — Performance Analytics
 
 A data analysis project exploring player and team performance during the 2026 FIFA Men's World Cup, using in-possession event data (player_in_possession_distributions.csv) and the R tidyverse / dplyr / ggplot2 stack.
 
-What's in this repo
-Player-level analysis
-Full player roster listing
-Top 10 goalscorers (bar chart)
-Players with the most shot attempts at goal
-Top ball progressors
-Top passers by completed passes
-Top players by successful take-ons
-Top crossers (attempted vs. completed)
+What's in this repo:
+-Player-level analysis
+-Full player roster listing
+-Top 10 goalscorers (bar chart)
+-Players with the most shot attempts at goal
+-Top ball progressors
+-Top passers by completed passes
+-Top players by successful take-ons
+-Top crossers (attempted vs. completed)
+
 Composite "player contribution" score combining goals, passing, progressions, take-ons, and line breaks
-Team-level analysis
-Goals scored by team (bar chart)
-Total shots by team (bar chart)
-Teams ranked by completed passes
-Team pass completion rate (%) (bar chart)
+-Team-level analysis
+-Goals scored by team (bar chart)
+-Total shots by team (bar chart)
+-Teams ranked by completed passes
+-Team pass completion rate (%) (bar chart)
+
 Relationship / correlation analysis
-Pass attempts vs. passes completed (scatter plot)
-Goals vs. shot attempts (scatter plot)
-Correlation matrix across key performance metrics (attempts at goal, ball progressions, crosses, goals, line breaks, passes, step-ins, switches of play, take-ons)
+-Pass attempts vs. passes completed (scatter plot)
+-Goals vs. shot attempts (scatter plot)
+-Correlation matrix across key performance metrics (attempts at goal, ball progressions, crosses, goals, line breaks, passes, step-ins, switches of play, take-ons)
+
+
+
 Tech stack
 R with tidyverse, dplyr, ggplot2
 Data
 player_in_possession_distributions.csv — per-player in-possession event data used throughout the analysis
 Getting started
+
 r
 install.packages(c("tidyverse", "dplyr", "ggplot2"))
 library(tidyverse)
